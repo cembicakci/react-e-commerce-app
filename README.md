@@ -11,7 +11,7 @@ Live: https://cembicakci.github.io/react-e-commerce-app/
 
 ## Features
 * User and Admin Register & Login
-* Delete, update and edit
+* Delete, update and add new product
 * Order
 * Responsive Design
 
