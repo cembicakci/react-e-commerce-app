@@ -2,7 +2,7 @@
   "name": "react-e-commerce",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://cembicakci.github.io/react-e-commerce-app",
+  "homepage": "https://cembicakci.github.io/react-e-commerce-app/",
   "dependencies": {
     "@chakra-ui/modal": "^2.1.2",
     "@chakra-ui/react": "^2.2.3",
