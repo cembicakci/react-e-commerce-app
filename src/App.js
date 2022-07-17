@@ -30,7 +30,7 @@ function App() {
           <Route path='/signin' element={<SignIn />} />
           <Route path='/signup' element={<SignUp />} />
           <Route path='/basket' element={<Basket />} />
-          <Route path='*' element={<Error404 />} />
+          {/* <Route path='/*' element={<Error404 />} /> */}
           <Route path="/profile" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
           <Route path="/admin/*" admin={true} element={<ProtectedRoute><Admin /></ProtectedRoute>} />
 
