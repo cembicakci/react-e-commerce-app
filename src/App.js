@@ -25,11 +25,12 @@ function App() {
       <div className="content">
         <Routes>
           <Route path='/' element={<Products />} />
+          <Route path='/react-e-commerce-app' element={<Products />} />
           <Route path='/product/:product_id' element={<ProductDetail />} />
           <Route path='/signin' element={<SignIn />} />
           <Route path='/signup' element={<SignUp />} />
           <Route path='/basket' element={<Basket />} />
-          <Route path='/*' element={<Error404 />} />
+          <Route path='*' element={<Error404 />} />
           <Route path="/profile" element={<ProtectedRoute><Profile /></ProtectedRoute>} />
           <Route path="/admin/*" admin={true} element={<ProtectedRoute><Admin /></ProtectedRoute>} />
 
